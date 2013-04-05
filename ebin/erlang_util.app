@@ -1,0 +1,9 @@
+{application,erlang_util,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{erlang_util_app,[]}},
+              {env,[]},
+              {modules,[dh_date,dh_irc,dh_jabber,dh_jirc,erlang_util_app,
+                        erlang_util_sup,reloader]}]}.
